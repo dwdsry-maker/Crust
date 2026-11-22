@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" data-theme="luxe" data-mode="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crust | קינוחי בוטיק</title>
+<meta name="description" content="Crust - קינוחי בוטיק טריים וחמים. לא רק קינוחים, מוכרים רגש.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥐</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="sparkles" aria-hidden="true"></div>
+<header class="topbar">
+  <a class="logo" href="#home" id="logo"></a>
+  <nav id="nav" aria-label="תפריט ראשי"></nav>
+  <div class="tools">
+    <button id="btnTheme" title="החלף עיצוב">✨</button>
+    <button id="btnMode" title="כהה / בהיר">🌓</button>
+    <button id="btnCart" title="סל קניות">🛍️<b id="cartCount">0</b></button>
+  </div>
+</header>
+<main id="app"></main>
+<footer id="footer"></footer>
+<aside id="drawer" aria-label="סל קניות"></aside>
+<div id="overlay"></div>
+<div id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
